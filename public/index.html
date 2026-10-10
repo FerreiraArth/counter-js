@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../src/css/style.css">
     
-    <title>Counter</title>
+    <title>Contador ate 10,000</title>
 </head>
 <body>
     
-    <div id="counter">
+    <main id="counter">
+
+        <header id="title">
+            <p>Chegue ao 10,000 e veja a mágica acontecer!</p>
+            <p>Faltam <b id="resto">10000</b> para a mágica acontecer!</p>
+        </header>
+
 
         <div id="acionar">
+
             <span id="milha">0</span>
             <span id="centena">0</span>
             <span id="dezena">0</span>
@@ -20,12 +27,19 @@
         </div>
 
         <div id="buttons">
-            <button id="increment" class="btn">INCREMENT</button>
-            <button id="decrement" class="btn">DECREMENT</button>
-            <button id="reset" class="btn">RESET</button>
+
+            <div id="add">
+                <button id="increment">INCREMENT</button>
+            </div>
+
+            <div id="rest">
+                <button id="decrement" class="btn">DECREMENT</button>
+                <button id="reset" class="btn">RESET</button>
+            </div>
+            
         </div>
 
-    </div>
+    </main>
 
     <script src="../src/js/script.js"></script>
 

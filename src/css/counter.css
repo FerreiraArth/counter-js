@@ -1,0 +1,19 @@
+b {
+    font-size: 1.5rem;
+}
+
+#counter {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+span {
+    font-size: 3rem;
+    margin: 0;
+}

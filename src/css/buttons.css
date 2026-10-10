@@ -7,6 +7,32 @@
     border-radius: 5px;
 }
 
+#buttons {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    justify-content: space-between;
+}
+#rest {
+    display: flex;
+    justify-content: space-around;
+}
+
+#increment {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+#add {
+    display: flex;
+    justify-content: center;
+}
+
 .active {
     background-color: #b30000;
 }
